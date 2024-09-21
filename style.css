@@ -1,0 +1,746 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top_bar{
+    background: rgb(63, 63, 63);
+    display: flex;
+    width: 100%;
+    height: 70px;
+    justify-content: space-between;
+}
+img{
+  height: 30px; 
+  width: 30px;
+  margin-top: 10px;
+}
+.info{
+    display: flex;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;;
+}
+.icon h2{
+    background: rgb(108, 209, 8);
+    padding: 5px;
+    margin-right: 8px;
+    color: white;
+    margin-top: 20px;
+
+}
+header{
+    width: 100%;
+    height: 100px;
+    background:black;
+    display: flex;
+    justify-content: space-between;
+}
+.tomato{
+    display: flex;
+}
+header img{
+    width: 100px;
+    height: 70px;
+}
+header h2{
+    margin-top: 25px;
+    color: white;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    margin: 15px;
+    color: white;
+}
+a{
+
+    text-decoration: none;
+    color: white;
+}
+.menu{
+    display: flex;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.fa-shopping-cart{
+    height: 200px;
+    width: 100px;
+    margin: 15px;
+    color: white;
+}
+.hero_area{
+   background: url(./photo-is-must-everyday-work-ai-generated-best-wonderful-photo_1088224-220302.avif);
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+}
+.hero_area img{
+        height: 250px;
+        width: 350px;
+        margin-top: 160px;
+
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.color{
+    color: white;
+    font-size: 35px;
+}
+.color h1{
+    margin-left: 90px;
+    font-weight: bold;
+}
+.one{
+    position: relative;
+}
+.one_one{
+    position: absolute;
+    background: rgba(26, 25, 25, 0.13);
+    color: white;
+    width: 200px;
+    height: 230px;
+    display: none;
+    font-size: 20px;
+}
+.one:hover .one_one{
+    display: block;
+}
+.two{
+    position: relative;
+}
+.two_two{
+    position: absolute;
+    background: rgba(26, 25, 25, 0.13);
+    color: white;
+    width: 200px;
+    height: 200px;
+    display: none;
+    font-size: 20px;
+}
+.two:hover .two_two{
+    display: block;
+}
+.three{
+    position: relative;
+}
+.three_three{
+    position: absolute;
+    background: rgba(26, 25, 25, 0.13);
+    color: white;
+    width: 200px;
+    height: 200px;
+    display: none;
+    font-size: 20px; 
+}
+.three:hover .three_three{
+    display: block;
+}
+.four{
+    position: relative;
+}
+.four_four{
+    position: absolute;
+    background: rgba(26, 25, 25, 0.13);
+    color: white;
+    width: 200px;
+    height: 200px;
+    display: none;
+    font-size: 20px;   
+}
+.four:hover .four_four{
+    display: block;
+}
+.five{
+    position: relative;
+}
+.five_five{
+    position: absolute;
+    background: rgba(26, 25, 25, 0.13);
+    color: white;
+    width: 200px;
+    height: 200px;
+    display: none;
+    font-size: 20px;      
+}
+.five:hover .five_five{
+    display:block ;
+}
+.six{
+    position: relative;
+}
+.six_six{
+    position: absolute;
+    background: rgba(26, 25, 25, 0.13);
+    color: white;
+    width: 200px;
+    height: 200px;
+    display: none;
+    font-size: 20px;  
+}
+.six:hover .six_six{
+    display: block;
+}
+li:hover a{
+    color: rgb(252, 197, 60);
+}
+.history{
+    height:600px;
+    width:95%;
+    padding: 30px;
+}
+.part_one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+hr{
+    width: 100px;
+    border: none;
+    border-bottom: 3px solid orange;
+}
+.part_two{
+   display: flex;
+}
+.first_parts{
+   height: 250px; 
+   width: 320px;
+}
+.second_parts{
+    height: 150px; 
+    width: 150px;
+}
+.second{
+    display: flex;
+    gap: 20px;
+}
+.description{
+    font-size: 30px;
+    padding: 12px;
+}
+h3{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    margin-left: 200px;
+}
+.slide{
+    background: url(./vecteezy_fresh-fruit-salad-in-a-bowl-on-wooden-background-selective_33880827.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 800px;
+    width: 100%;
+    
+}
+.slide_img div{
+    display: flex;
+    width: 50%;
+}
+.slide_img img{
+    height: 500px;
+    width: 700px;
+    gap: 10px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.slick-prev:before, .slick-next:before { 
+    color:rgb(255, 255, 255) !important;
+}
+.slick-prev::before,
+.slick-next::before {
+    color: rgba(230, 196, 8, 0.795);
+    font-size: 2.5rem;
+}
+
+.slick-prev,
+.slick-next {
+    width: 2.5rem;
+    height: 2.5rem;
+    z-index: 2;
+}
+
+.slick-list {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.slick-prev {
+    left: 50px;
+}
+
+.slick-next {
+    right: 50px;
+}
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 50px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '*';
+    text-align: center;
+    opacity: .55;
+    color: rgb(255, 255, 255);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+   margin-top: -50px;
+}
+.slick-dots li.slick-active button:before {
+    opacity: .95;
+    color: red;
+}
+.overlay{
+    height: 760px;
+    width: 100%;
+    background: rgba(2, 13, 31, 0.521);
+    padding: 20px;
+}
+.reservation{
+    height:650px;
+    width:95%;
+    padding: 30px;
+}
+.booking{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+hr{
+    width: 100px;
+    border: none;
+    border-bottom: 3px solid rgba(238, 165, 31, 0.795);
+} .form{
+    display: flex;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifs;
+    background-color: rgba(255, 187, 0, 0.679);
+    width: 1100px;
+    height: 250px; 
+    padding: 8px;
+    margin: 0 auto;
+    margin-top: 70px;
+    border-style: groove;
+}
+.name{
+    padding: 20px;
+    margin: 40px;
+}
+input{
+
+    height: 28px;
+    width: 200px;
+}
+.buttonhigh{
+    background-color:#f9c56a;
+    height: 40px;
+    width: 200px;
+    font-weight: bolder;
+    margin-left: 650px;
+    border-radius: 0;
+    border: none;
+    font-family: raleway,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 10px 15px;
+
+}
+.button_up:hover .buttonhigh{
+    background-color: orange;
+}
+
+.call{
+    width: 620px;
+    height: 28px;
+    margin-left: 410px;
+    background-color:rgb(250, 140, 5);
+    color: white;
+    text-align: center;
+}
+.feature{
+    height: 800px;
+    width: 100%;
+    background: url(./pngtree-restaurant-blur-images-dark-background-image_15612197.jpg);
+    background-size: cover;
+    padding-bottom: 50px;
+    opacity: .85;
+}
+.little{
+    font-size: larger;
+    color: azure;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+}
+.line{
+    width: 100px;
+    border: none;
+    border-bottom: 3px solid white;
+    margin-left: 700px;
+    top: 0 auto;
+}
+.pasta{
+    height: 580px;
+    width: 320px;
+    background-color: white;
+    margin: 30px;
+    font-size: 20px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.pastaa{
+   height: 250px; 
+   width: 100%;
+}
+.grill{
+    display: flex;
+    margin-left: 170px;
+}
+.line_two{
+    width: 100px;
+    border: none;
+    border-bottom: 3px solid rgb(180, 16, 16); 
+}
+.menu_card{
+    width: 100%;
+    height: 720px;
+    background-color: white;
+}
+.fine{
+    font-size: larger;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 30px;
+}
+.line-two{
+    width: 100px;
+    border: none;
+    border-bottom: 3px solid rgb(234, 16, 16);
+    margin-left: 700px;
+    top: 0 auto; 
+}
+.ses{
+    position: relative;
+    margin-left: 140px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.maincard{
+    display: flex;
+    gap: 50px;
+    margin-left: 150px;
+}
+.maincard li{
+    color: black;
+}
+.ses a{
+    color: black;
+}
+.card_one{
+    font-size: 15px;
+    font-weight: 40px;
+}
+.lastbutton{
+    background-color:#f9c56a;
+    height: 40px;
+    width: 200px;
+    font-weight: bolder;
+    margin-left: 650px;
+    border-radius: 0;
+    border: none;
+    font-family: raleway,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 10px 15px;
+    margin-top:12px;
+}
+.buttonone:hover .lastbutton{
+    background-color: orange;
+}
+.heading_part_one{
+    font-size: larger;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 30px;
+
+}
+.heading_part_one p{
+    font-size: 25px;
+}
+.line-two_three{
+    width: 100px;
+    border: none;
+    border-bottom: 3px solid orange;
+    margin-left: 700px;
+    top: 0 auto; 
+}
+.zomato_icon{
+    width: 100%;
+    height: 280px;
+}
+.iconone{
+    display: flex;
+    font-size: 30px;
+    gap: 70px;
+    margin-top: 80px;
+    margin-left: 300px;
+    opacity: 10px;
+    color: #9e9d9d;
+}
+.again_footer{
+    height: 730px;
+    width: 100%;
+    background: url(./sliderimg/chicken-skewers-with-slices-sweet-peppers-dill_2829-18813.avif);
+    background-size: cover;
+  
+}
+.again_footer_one{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+.again_footer_one hr{
+    margin-left: 700px;
+}
+.again_footer_two{
+    height: 350px;
+    width: 750px;
+    background-color: rgba(255, 255, 255, 0.844);
+    display: flex;
+    margin-top: 84px;
+   margin-left: 400px;
+}
+.footer_img_one{
+    height: 320px;
+    width: 350px;
+    margin-top: -0px;
+}
+.again_footer_two p{
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #000000d4;
+    margin-left: 10px;
+}
+.again_footer_two h1{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.line_three_four{
+   margin-left: 10px;
+}
+.again_footer_three{
+    display: flex;
+}
+.pancakebtn{
+    background-color:#fccd7c;
+    height: 38px;
+    width: 135px;
+    padding: 8px;
+    margin: 10px;
+}
+.pan_hov:hover .pancakebtn{
+    background-color: orange;
+}
+.pancakebtn-two{
+    background-color:#cbc6c6;
+    height: 38px;
+    width: 135px;
+    padding: 8px;
+    margin: 10px;
+}
+.pan_hov_two:hover .pancakebtn-two{
+    background-color: gray;
+}
+.pan_flex{
+    display: flex;
+}
+.overly_one{
+    height: 690px;
+    width: 100%;
+    background: rgba(2, 13, 31, 0.521);
+    padding: 28px;
+}
+
+.instragram{
+    width: 100%;
+    height: 150px;
+    padding: 30px;
+}
+.heading_part_two{
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+.line_three_three{
+    width: 100px;
+    border: none;
+    border-bottom: 3px solid orange;
+    margin-left: 700px;
+    top: 0 auto; 
+}
+.subscribe{
+    width: 100%;
+    height: 150px;
+    background-color: rgba(255, 228, 196, 0.477);
+}
+.heading_part_three{
+    display: flex;
+    font-size: 30px;
+    color: #000;
+    gap: 30px;
+    padding: 60px;
+    margin-left: 150px;
+
+}
+.emailtwo{
+    display: flex;
+    text-align: center;
+    font-size: 40px;
+    margin-left: 1100px;
+    margin-top: -70px;
+    gap: 10px;
+    
+}
+.form-control{
+        display: inline-block;
+        width: auto;
+        vertical-align: middle;
+}
+.btn{
+    color:black;
+    height: 32px;
+   width: 50px;
+   background-color:rgb(251, 195, 90);
+   
+}
+.emailtwo:hover .btn{
+    background-color: orange;
+}
+.footer{
+    background: url(./sliderimg/top-view-colored-bell-peppers-with-different-seasonings-grey-background-vegetable-pepper-spicy-hot-food_140725-74491.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+}
+.footer_one{
+
+    width: 100%;
+    height: 300px;
+    background: rgba(0, 6, 15, 0.722);
+    display: flex;
+    gap: 150px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.subfooter_one h1{
+
+color: gold;
+}
+.subfooter_one p{
+    color: white;
+
+}
+.subfooter_one a{
+    color:gold;
+    text-decoration: none;
+}
+.subfooter_two h1{
+    color: gold
+}
+.subfooter_one:hover p{
+    color: gold;
+}
+.subfooter_two h5{
+    color: white;
+}
+.subfooter_two h6{
+    color: white;
+}
+.hand_picked{
+    display: flex;
+}
+.hand_picked img{
+     height: 80px;
+     width: 90px;
+}
+.post{
+    padding: 8px;
+}
+.icon_sesh{
+    display: flex;
+    color: white;
+    gap: 20px;
+    background-color: rgb(80, 80, 80);
+    justify-content: center;
+}
+.seshhh{
+    color: white;
+    gap: 20px;
+    padding: 20px;
+}
+.subfooter_three{
+    color: gold
+}
+.fa-map-marker{
+    color: gold;
+  
+}
+.market{
+    display: flex;
+    gap: 10px;
+}
+ .faphone .fa-phone{
+    color: gold
+}
+.faphone{
+    display: flex;
+    gap: 10px;
+}
+ .oenvelope .fa-envelope-o{
+    color: gold;
+}
+.oenvelope{
+    display: flex;
+    gap: 10px;
+}
+.row {
+  background-color:#070707c2;
+  width: 100%;
+  height:60px;
+}
+  .row p {
+    color: #e1e1e1;
+    font-size: 22px;
+    text-align: center;
+    margin-left: 100px;
+    padding: 10px;
+  }
+  .fa-heart{
+    color: #f2ba57;
+  }
