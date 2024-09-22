@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./library/library/slick/slick.css">
     <!-- // Add the new slick-theme.css if you want the default styling -->
     <link rel="stylesheet" href="./library/library/slick/slick-theme.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -90,7 +91,7 @@
             <img src="./bglogo.png" alt="">
             <br>
             <br>
-            <div class="color">
+            <div class="color" data-aos="flip-up">
             <h1>DELICIOUS FOOD</h1>
             
             <p>Tomato is a delicious restaurent
@@ -155,7 +156,7 @@
   
                   
 	<section class="reservation">
-        <div class="booking">
+        <div class="booking"  data-aos="fade-up-right">
             <h1>RESERVATIONS</h1>
             <P>Book a table online.Leads will reach in your e-mail</P>
             <br>
@@ -358,9 +359,40 @@
             <hr>
         </div>
         <div class="again_footer_two">
+            <div class="slider_two">
+                <img class="footer_img_one" src="./sliderimg/pancakes-with-cranberries_87742-3267.jpg" alt="">
+                <div>
+                    <h1>1 PANCAKE WITH CARAMEL</h1>
+                    <br>
+                    <p>If you are a fan of caramel cake, then you'll love our
+                         Pancake with caramel icecream. It's not thick, but very
+                         tasty.</p>
+                         <br>
+                    <hr class="line_three_four">
+                    <br>
+                    <p>Ultrices In massa est, dignissim in libero ac, fringilla
+                        ornare mi.Ultrices eget justo. Nam purus lacus, efficitur
+                         eget laoreet sed, finibus nec neque. Cras eget enim in diam
+                         dapibus sagittis. accumsan, habitant morbi tristique senectus
+                          et netus et malesuada fames ac turpis egestas.</p>
+                          <div class="pan_flex">
+                          <div class="pan_hov">
+                          <button class="pancakebtn">ORDER NOW</button>
+                
+                        </div>
+                        <div class="pan_hov_two">
+                          <button class="pancakebtn-two">ADD TO CARD</button>
+                        </div>
+                
+                        </div>
+                </div>
+            </div>
+    <!-- </div> -->
+    <!-- <div class="again_footer_two"> -->
+        <div class="slider_two">
             <img class="footer_img_one" src="./sliderimg/pancakes-with-cranberries_87742-3267.jpg" alt="">
             <div>
-                <h1>1 PANCAKE WITH CARAMEL</h1>
+                <h1>2 PANCAKE WITH CARAMEL</h1>
                 <br>
                 <p>If you are a fan of caramel cake, then you'll love our
                      Pancake with caramel icecream. It's not thick, but very
@@ -368,24 +400,24 @@
                      <br>
                 <hr class="line_three_four">
                 <br>
-                <p>Ultrices In massa est, dignissim in libero ac, fringilla 
+                <p>Ultrices In massa est, dignissim in libero ac, fringilla
                     ornare mi.Ultrices eget justo. Nam purus lacus, efficitur
-                     eget laoreet sed, finibus nec neque. Cras eget enim in diam 
+                     eget laoreet sed, finibus nec neque. Cras eget enim in diam
                      dapibus sagittis. accumsan, habitant morbi tristique senectus
                       et netus et malesuada fames ac turpis egestas.</p>
                       <div class="pan_flex">
                       <div class="pan_hov">
                       <button class="pancakebtn">ORDER NOW</button>
-                      
+            
                     </div>
                     <div class="pan_hov_two">
                       <button class="pancakebtn-two">ADD TO CARD</button>
                     </div>
-                   
+            
+                    </div>
             </div>
-           
         </div>
-    </div>
+</div>
 
 </section>
 
@@ -495,7 +527,6 @@
         </div>
 
     </div>
-   
 </section>
 <section>
     <div class="row">
@@ -525,5 +556,9 @@ $('.again_footer_two').slick({
 });
 });
 </script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </body>
 </html>
